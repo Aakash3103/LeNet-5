@@ -6,8 +6,11 @@ we implemented LeNet-5 CNN for the classification of images from the MNIST datas
 
 What to find in this :
 ->Understanding of components within a convolutional neural network
+
 ->Key definitions of terms commonly used in deep learning and machine learning
+
 ->Understanding of LeNet-5 as presented in the original research paper
+
 ->Implementation of a neural network using TensorFlow and Keras
 
 
