@@ -1,6 +1,5 @@
 # LeNet-5
 LeNet was introduced in the research paper “Gradient-Based Learning Applied To Document Recognition” in the year 1998 by Yann LeCun, Leon Bottou, Yoshua Bengio,
-
 and Patrick Haffner. Many of the listed authors of the paper have gone on to provide several significant academic contributions to the field of deep learning.
 
 we implemented LeNet-5 CNN for the classification of images from the MNIST dataset.
@@ -33,9 +32,7 @@ To get the MNIST images dimension to the meet the requirements of the input laye
 The grayscale images used in the research paper had their pixel values normalized from 0 to 255, to values between -0.1 and 1.175.
 
 The reason for normalization is to ensure that the batch of images have a mean of 0 and a standard deviation of 1, the benefits of
-
 this is seen in the reduction in the amount of training time. In the image classification with LeNet-5 example below, we’ll be normalizing
-
 the pixel values of the images to take on values between 0 to 1.
 
 The LeNet-5 architecture utilizes two significant types of layer construct: convolutional layers and subsampling layers.
